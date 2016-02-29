@@ -8,7 +8,6 @@ import javax.swing.border.*;
 
 public class L2ButtonAction extends JButton
 {
-
 	/**
 	* Method for what happens when the L2 button is selected.
 	* @author Jack L && Billy
@@ -31,8 +30,6 @@ public class L2ButtonAction extends JButton
 			//set the toggle boolean 'velocitySelect' as true to begin
 			CustomToggle.velocitySelect = true;
 			new ClearGUI(); //clears the currently selected buttons
-			
-			
 		}
 	}
 }
